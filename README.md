@@ -20,7 +20,7 @@ Follow these steps to get the bot running on your local machine for development 
 1. **Clone the Repository**
 
     ```
-    git clone https://github.com/<your-username>/telegram-dr-ada.git
+    git clone https://github.com/maestroh1git/telegram-dr-ada.git
     ```
 
 2. **Navigate to the Project Directory**
