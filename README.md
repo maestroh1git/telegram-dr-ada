@@ -20,13 +20,13 @@ Follow these steps to get the bot running on your local machine for development 
 1. **Clone the Repository**
 
     ```
-    git clone https://github.com/<your-username>/medical-advice-telegram-bot.git
+    git clone https://github.com/<your-username>/telegram-dr-ada.git
     ```
 
 2. **Navigate to the Project Directory**
 
     ```
-    cd medical-advice-telegram-bot
+    cd telegram-dr-ada
     ```
 
 3. **Install Dependencies**
@@ -41,7 +41,7 @@ Follow these steps to get the bot running on your local machine for development 
 
     We use environment variables to store sensitive information. 
 
-    Rename the `botfather.env.example` file to `botfather.env` and fill in your OpenAI API key and Telegram token.
+    Create or rename the `botfather.env.example` file to `botfather.env` and fill in your OpenAI API key and Telegram token.
 
     ```
     TELEGRAM_TOKEN=<your-telegram-bot-token>
@@ -67,6 +67,7 @@ python -m unittest discover tests
 ```
 
 ## Deployment
+[] ToDo
 
 For instructions on how to deploy the bot to a live system, refer to the `DEPLOYMENT.md` file in the repository.
 
